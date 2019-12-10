@@ -1,1 +1,22 @@
+*.log
+docker/logs/*
+!docker/logs/.gitkeep
+docker/.env
+static/css/custom-styles/*
+!static/css/custom-styles/.gitkeep
+!static/css/custom-styles/github.css
 config.php
+
+### Temp files
+
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]
+
+*.*~
+Session.vim
+.netrwhist
+*.ori
+*.backup
+.DS_Store
